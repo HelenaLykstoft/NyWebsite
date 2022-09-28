@@ -1,0 +1,31 @@
+body {
+    font-family: Georgia;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    font-weight: normal;
+}
+.vigtige {
+    color: hotpink;
+}
+
+p {
+    font-weight: bold;
+}
+
+input {
+    clear: right;
+}
+
+label{
+    margin: 5px;
+}
+
+.dropdown{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}

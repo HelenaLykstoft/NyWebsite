@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dyrehandel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Velkommen til dyrehandel</h1>
+</header>
+<article>
+    Her er en lille <span class="vigtige">baggrundshistorie</span> om vores dyrehandel.
+    <div>
+        De første år efter coronakrisen var hårde. Minkene døde. Sådan er livet. Men nu går det godt.
+    </div>
+    <p class="vigtige">Det her er også vigtigt</p>
+
+</article>
+<div class="container">
+    <div class="row">
+        <div class="col">Lorem ipsum is a blubla and wtf is that</div>
+        <div class="col">Lorem ipsum is a blubla and why is that</div>
+        <div class="col">Lorem ipsum is a blubla and how is that</div>
+        <div class="col">Lorem ipsum is a blubla and when is that</div>
+        </div>
+</div>
+</div>
+<br/>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-body">Lorem ipsum</h5> is a blubla and why the fuck is that
+        </div>
+</div>
+<br/>
+<br/>
+
+<form action="modtagerside.html" method="post">
+    <p>Er du sælger eller køber?</p>
+    <input type="radio" name="userrole" value="Sælger"> Sælger
+    <input type="radio" name="userrole" value="Køber"> Køber
+    <br/>
+    <br/>
+    <p>Hvilken type dyr er du ude efter?</p>
+    <label>Pattedyr</label>
+    <input type="checkbox" name="searchfilter" value="pattedyr">
+    <label>Krybdyr</label>
+    <input type="checkbox" name="searchfilter" value="krybdyr">
+    <label>Insekter</label>
+    <input type="checkbox" name="searchfilter" value="insekter">
+    <br/>
+    <br/>
+    <p>Hvilken by vil du lede efter dyr i?</p>
+    <div class="dropdown">Vælg by:</div>
+    <select name="location">
+        <option value="CPH">København</option>
+        <option value="ODE">Odense</option>
+        <option value="AAR">Aarhus</option>
+    </select>
+    <br/>
+    <br/>
+    <label for="femail">Email:<input type="email" id="femail"></label>
+    <label>Color</label><input type="color">
+    <label>Date</label><input type="date">
+    <label>Text</label><input type="text">
+    <input type="submit" value="Send">
+    <br/>
+    <br/>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
